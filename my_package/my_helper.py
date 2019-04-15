@@ -1,3 +1,12 @@
+""" All the program is inspired and taken from Tensorflow tutorials and DataCamp course link
+
+https://www.datacamp.com/community/tutorials/cnn-tensorflow-python
+https://www.tensorflow.org/alpha/tutorials/images/intro_to_cnns
+https://www.tensorflow.org/guide/embedding
+https://medium.com/@luckylwk/visualising-high-dimensional-datasets-using-pca-and-t-sne-in-python-8ef87e7915b
+https://github.com/zalandoresearch/fashion-mnist
+https://www.tensorflow.org/tutorials/keras/basic_classification
+"""
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
@@ -86,3 +95,4 @@ def write_metadata(filename, labels):
             f.write("{}\t{}\n".format(index, label))
 
     print('Metadata file saved in {}'.format(filename))
+
